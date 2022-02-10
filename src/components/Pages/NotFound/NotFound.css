@@ -1,0 +1,18 @@
+div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #96c2f5, #8cf3fa, #b7f7e9, white);
+}
+
+iframe {
+  width: 20rem;
+  height: 20rem;
+}
+
+h2 {
+  font-size: 8rem;
+}
