@@ -1,11 +1,16 @@
 import React from 'react';
+import { Footer } from '../../Layouts/Footer/Footer';
+import { Header } from '../../Layouts/Header/Header';
+import img from '../../../assets/pexelsAbout.jpg';
+
+
 
 export const AboutUs = () => {
   return(
-    <div>
-      <h2>Soy AboutUS</h2>
-      <a href="">Home</a>
-      <a href="">Contact</a>
-    </div>    
+    <>
+     <Header /> 
+      <img className="about-us" src={img} alt="Imagen about" />
+      <Footer />
+    </>    
     ) 
 };

@@ -8,7 +8,7 @@ export const Header = () => {
     <header>
       <NavLink to='/'><ButtonUI className = "btn-ui" text_button = "Home" /></NavLink>
       <NavLink to='/aboutUs'><ButtonUI className = "btn-ui" text_button = "About Us" /></NavLink>
-      <NavLink to='contact'><ButtonUI className = "btn-ui" text_button = "Contact" /></NavLink>       
+      <NavLink to='/contact'><ButtonUI className = "btn-ui" text_button = "Contact" /></NavLink>       
       <hr />
     </header>
   );

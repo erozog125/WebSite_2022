@@ -14,8 +14,7 @@ import { NotFound } from './components/Pages/NotFound/NotFound';
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path='/prueba' element={<h1>Hola</h1>} />
+      <Routes>        
         <Route path='/' element={<Home />} />
         <Route path='/aboutUs' element={<AboutUs />} />
         <Route path='/contact' element={<Contact />} />
