@@ -6,7 +6,7 @@ import { Footer } from '../../Layouts/Footer/Footer';
 
 export const Contact = () => {
   return(
-    <div>
+    <div className='contact'>
       <Header />
       <MainContact />
       <Footer />      

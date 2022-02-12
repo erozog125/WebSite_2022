@@ -1,7 +1,6 @@
 import React from 'react';
-import { ButtonUI } from '../../UI/ButtonUI';
+import { ButtonUI } from '../../UI/ButtonUI/ButtonUI';
 import { NavLink } from 'react-router-dom';
-
 
 export const Footer = () => {
   return(
